@@ -13,6 +13,7 @@ public class Aplicacion {
         Gato katty= new Gato("Katty", 12, "criolla", "hembra", alejandro, juan);
         System.out.println(katty);
 
+        System.out.print("La edad de katty es " + katty.getEdad());
 
     }
 }
